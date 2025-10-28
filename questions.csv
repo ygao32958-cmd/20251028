@@ -1,0 +1,7 @@
+question,optionA,optionB,optionC,optionD,answer,feedback
+"上課時老師用來分享筆記的軟體是？","Notion","HackMD","Google Docs","Obsidian","B","HackMD 是線上筆記與協作平台，老師用它整理上課重點。"
+"上課時我們用來編寫程式的軟體是？","VS Code","Sublime Text","Atom","Notepad++","A","VS Code 是常見的程式編輯器，支援多種語言與擴充套件。"
+"這門課的名稱是什麼？","網頁設計入門","程式設計與實習","人工智慧概論","資料結構","B","這堂課的全名是「程式設計與實習」。"
+"老師一開始介紹，在 VS Code 裡面用來協助寫程式的 AI 是？","ChatGPT","GitHub Copilot","Cursor","Gemini","B","GitHub Copilot 可以在 VS Code 中自動補全與建議程式碼。"
+"這堂課的老師是誰？","陳慶帆老師","林志明老師","張育誠老師","黃文彬老師","A","授課老師是陳慶帆老師。"
+"上課點名的方式是什麼？","口頭回答名字","簽到表","在 iClass 的討論區上傳自己的 IP 位置","隨機抽問","C","點名方式是上傳自己的 IP 位置到 iClass 的討論區。"
