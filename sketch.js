@@ -26,7 +26,10 @@ function setup() {
       return;
     }
     startBtn.hide();
-    initQuiz();
+    // 加入延遲以避免誤觸選項
+    setTimeout(() => {
+      initQuiz();
+    }, 300);
   });
 }
 
@@ -184,7 +187,8 @@ function handleAnswer(i) {
     showFeedback = false;
     feedbackText = '';
     if (current >= quiz.length) showResult();
-  }, 1500);
+    // 新增延遲時間讓使用者有時間看答案回饋
+  }, 2000);
 }
 
 // === 結果畫面 ===
@@ -200,6 +204,10 @@ function showResult() {
 }
 
 function drawResult() {
+  // 移除舊的重新開始按鈕（如果有的話）
+  const existingBtn = select('button');
+  if (existingBtn) existingBtn.remove();
+  
   fill(255, 240);
   rect(width / 2 - 300, height / 2 - 200, 600, 400, 20);
   textAlign(CENTER, CENTER);
@@ -311,5 +319,4 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
   positionStartBtn();
 }
-
 
